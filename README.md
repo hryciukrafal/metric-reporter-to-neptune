@@ -1,1 +1,1 @@
-# metric-reporter-to-neptune
+# metrics-reporter-to-neptune

@@ -1,0 +1,20 @@
+group 'io.deepsense'
+version '0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '21.0'
+    compile group: 'io.dropwizard.metrics', name: 'metrics-core', version: '3.2.0'
+    compile group: 'io.deepsense.neptune', name: 'neptune-client-library', version: '1.4.0'
+
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
